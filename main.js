@@ -1,9 +1,4 @@
 import TitleScreen from './scenes/TitleScreen.js'
-import LevelOne from './scenes/LevelOne.js'
-import LevelTwo from './scenes/LevelTwo.js'
-import LevelThree from './scenes/LevelThree.js'
-import GameOver from './scenes/GameOver.js'
-import Victory from './scenes/Victory.js'
 
 var gameWidth = 64;
 var gameHeight = 64;
@@ -28,12 +23,7 @@ var config = {
       }
     },
     scene:
-      [TitleScreen,
-        LevelOne,
-        LevelTwo,
-        LevelThree,
-        GameOver,
-        Victory],
+      [TitleScreen],
     physics: {
         default: 'arcade',
         arcade: {
