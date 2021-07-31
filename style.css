@@ -1,0 +1,29 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(0deg, rgb(186,187,191, 0.7), rgb(186,187,191, 0.7)), url('background-brick.jpg');
+}
+
+header {
+  text-align: center;
+  width: 50%;
+  margin: auto;
+  font-size: 1.2em;
+}
+
+h2{
+  padding: 15px;
+}
+
+footer {
+  padding: 15px;
+  bottom: 0px;
+  display: inline-block;
+}
+
+canvas {
+  image-rendering: crisp-edges;
+  image-rendering: -moz-crisp-edges;
+  image-rendering: -webkit-optimize-contrast;
+  -ms-interpolation-mode: nearest-neighbor;
+}
